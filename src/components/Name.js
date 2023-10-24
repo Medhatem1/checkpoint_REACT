@@ -1,5 +1,6 @@
-function Name({ name }) {
-    return <h2>{name}</h2>;
+import product from '../product';
+function Name() {
+    return <h2>{product.name}</h2>;
   }
   
   export default Name;

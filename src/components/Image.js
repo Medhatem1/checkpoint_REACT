@@ -1,5 +1,6 @@
-function Image({ imageUrl }) {
-    return <img src={imageUrl} alt="Product"  />;
+import product from '../product';
+function Image() {
+    return <img src={product.imageUrl} alt="Product"  />;
   }
   
   export default Image;

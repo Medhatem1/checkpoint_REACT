@@ -1,5 +1,6 @@
-function Price({ price }) {
-    return <p>PRICE:        {price}</p>;
+import product from '../product';
+function Price() {
+    return <p> {product.price}</p>;
   }
   
   export default Price;
